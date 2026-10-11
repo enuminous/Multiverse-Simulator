@@ -1,0 +1,72 @@
+{
+  "type": "object",
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "logline": {
+      "type": "string"
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "act": {
+            "type": "string",
+            "enum": [
+              "COLD OPEN",
+              "ACT ONE",
+              "ACT TWO",
+              "ACT THREE",
+              "TAG"
+            ]
+          },
+          "heading": {
+            "type": "string"
+          },
+          "beat_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "fountain": {
+            "type": "string"
+          },
+          "inventions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "act",
+          "heading",
+          "beat_ids",
+          "fountain",
+          "inventions"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "science_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "run_id",
+    "title",
+    "logline",
+    "scenes",
+    "science_notes"
+  ],
+  "additionalProperties": false
+}
