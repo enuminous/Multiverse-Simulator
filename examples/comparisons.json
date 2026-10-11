@@ -1,0 +1,273 @@
+{
+  "engine": "1.0.0",
+  "results": [
+    {
+      "lab": "portal",
+      "name": "Portals removed",
+      "duration": 8,
+      "enabled": {
+        "time": 8,
+        "trace": 0.9999999999999877,
+        "traceError": 1.2323475573339238e-14,
+        "purity": 0.999999999999976,
+        "worldPurity": 0.999999999999976,
+        "coherence": 0.2315098251015379,
+        "record": 0,
+        "mutualInformation": 1.7618845770981724e-14,
+        "outside": 0.013583717151282046,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.9864162828487056,
+          0.013583717151282046
+        ]
+      },
+      "baseline": {
+        "time": 8,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 1,
+        "worldPurity": 1,
+        "coherence": 0,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          1,
+          0
+        ]
+      },
+      "totalVariation": 0.013583717151288203
+    },
+    {
+      "lab": "curve",
+      "name": "Boundary stays closed",
+      "duration": 8,
+      "enabled": {
+        "time": 8,
+        "trace": 1.0000000000000278,
+        "traceError": 2.7755575615628914e-14,
+        "purity": 1.000000000000053,
+        "worldPurity": 1.000000000000053,
+        "coherence": 0.9334956834398259,
+        "record": 0,
+        "mutualInformation": -4.0042831297688136e-14,
+        "outside": 0.6096887860830162,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.111462104679705,
+          0.04578082256797602,
+          0.23306828666933047,
+          0.21970404133490593,
+          0.16992766290025973,
+          0.22005708184785053
+        ]
+      },
+      "baseline": {
+        "time": 8,
+        "trace": 1.0000000000000346,
+        "traceError": 3.4638958368304884e-14,
+        "purity": 1.000000000000068,
+        "worldPurity": 1.000000000000068,
+        "coherence": 0.3525002888831239,
+        "record": 0,
+        "mutualInformation": -4.997345345951531e-14,
+        "outside": 0,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.47718105854121406,
+          0.10613531707759104,
+          0.4166836243812295,
+          0,
+          0,
+          0
+        ]
+      },
+      "totalVariation": 0.6096887860830197
+    },
+    {
+      "lab": "memory",
+      "name": "Record interaction removed",
+      "duration": 8,
+      "enabled": {
+        "time": 8,
+        "trace": 1.0000000000000646,
+        "traceError": 6.461498003318411e-14,
+        "purity": 1.0000000000001306,
+        "worldPurity": 0.7176179910915956,
+        "coherence": 0.6384738728756648,
+        "record": 0.18679475662016254,
+        "mutualInformation": 0.07199039296568285,
+        "outside": 0.448597889757544,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.46610848021353857,
+          0.08529363002898205,
+          0.2112536731373626,
+          0.2373442166201814
+        ]
+      },
+      "baseline": {
+        "time": 8,
+        "trace": 1.000000000000119,
+        "traceError": 1.1901590823981678e-13,
+        "purity": 1.0000000000002376,
+        "worldPurity": 1.0000000000002376,
+        "coherence": 0.9769007483190736,
+        "record": 0,
+        "mutualInformation": -1.7170366060451026e-13,
+        "outside": 0.41484858278833403,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.37130583676967605,
+          0.21384558044210902,
+          0.20264821392881555,
+          0.2122003688595185
+        ]
+      },
+      "totalVariation": 0.12855195041309972
+    },
+    {
+      "lab": "decoherence",
+      "name": "Environment removed",
+      "duration": 8,
+      "enabled": {
+        "time": 8,
+        "trace": 0.9999999999998619,
+        "traceError": 1.3811174426336947e-13,
+        "purity": 0.2531964658778402,
+        "worldPurity": 0.2531964658778402,
+        "coherence": 0.06208336314186986,
+        "record": 0,
+        "mutualInformation": 1.9925312853724661e-13,
+        "outside": 0.4940103272694298,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.2538999596356137,
+          0.2520897130948184,
+          0.2375726608299213,
+          0.2564376664395085
+        ]
+      },
+      "baseline": {
+        "time": 8,
+        "trace": 0.9999999999997919,
+        "traceError": 2.0805579481475434e-13,
+        "purity": 0.9999999999995858,
+        "worldPurity": 0.9999999999995858,
+        "coherence": 0.9904662131526464,
+        "record": 0,
+        "mutualInformation": 3.0016106340736413e-13,
+        "outside": 0.46164978707393733,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.2943513563763048,
+          0.24399885654954978,
+          0.18615524016558826,
+          0.27549454690834907
+        ]
+      },
+      "totalVariation": 0.05950827720956667
+    },
+    {
+      "lab": "field",
+      "name": "Source removed",
+      "duration": 8,
+      "enabled": {
+        "time": 8,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 1,
+        "worldPurity": 1,
+        "coherence": 0,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0,
+        "fieldEnergy": 0.43844635455295744,
+        "fieldAmplitude": 0.859310047593694,
+        "populations": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "baseline": {
+        "time": 8,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 1,
+        "worldPurity": 1,
+        "coherence": 0,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "totalVariation": 0
+    },
+    {
+      "lab": "feedback",
+      "name": "Field feedback removed",
+      "duration": 8,
+      "enabled": {
+        "time": 8,
+        "trace": 0.999999999999976,
+        "traceError": 2.398081733190338e-14,
+        "purity": 0.9999999999999508,
+        "worldPurity": 0.7335088127035063,
+        "coherence": 0.7256384518308204,
+        "record": 0.22913773608303298,
+        "mutualInformation": 0.27780973796166863,
+        "outside": 0.5335714348982166,
+        "fieldEnergy": 0.3988545706968529,
+        "fieldAmplitude": 1.1530268519794589,
+        "populations": [
+          0.26166160413660505,
+          0.10381854821025703,
+          0.10094841275489744,
+          0.32173544651485175,
+          0.133948174753979,
+          0.07788781362938582
+        ]
+      },
+      "baseline": {
+        "time": 8,
+        "trace": 1.0000000000000955,
+        "traceError": 9.547918011776346e-14,
+        "purity": 1.00000000000019,
+        "worldPurity": 0.7189044249439368,
+        "coherence": 0.6662861376321413,
+        "record": 0.2505538670878712,
+        "mutualInformation": 0.2580687608425073,
+        "outside": 0.5788473408123156,
+        "fieldEnergy": 0.4004684524500236,
+        "fieldAmplitude": 1.1494034936604738,
+        "populations": [
+          0.16271536530688213,
+          0.1224988231693816,
+          0.13593847071151635,
+          0.3946363916299828,
+          0.055145171718297276,
+          0.12906577746403544
+        ]
+      },
+      "totalVariation": 0.1777492418654644
+    }
+  ]
+}

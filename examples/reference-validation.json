@@ -1,0 +1,68 @@
+{
+  "engine": "1.0.0",
+  "numpy_version": "2.3.5",
+  "status": "passed",
+  "checks": [
+    {
+      "lab": "portal",
+      "numpy_step_max_error": 4.440892098500626e-16,
+      "minimum_density_eigenvalue": -3.660590895990425e-16,
+      "trace_error": 1.2323475573339238e-14
+    },
+    {
+      "lab": "curve",
+      "numpy_step_max_error": 4.910462595695867e-16,
+      "minimum_density_eigenvalue": -4.586573849236105e-16,
+      "trace_error": 2.7533539429688708e-14
+    },
+    {
+      "lab": "memory",
+      "numpy_step_max_error": 3.3306718973174304e-16,
+      "minimum_density_eigenvalue": -1.5867163859296423e-15,
+      "trace_error": 6.461498222161796e-14
+    },
+    {
+      "lab": "decoherence",
+      "numpy_step_max_error": 1.6653345980907568e-16,
+      "minimum_density_eigenvalue": -3.322569987805936e-17,
+      "trace_error": 1.3811174872841027e-13
+    },
+    {
+      "lab": "field",
+      "numpy_step_max_error": 0.0,
+      "minimum_density_eigenvalue": 0.0,
+      "trace_error": 0.0
+    },
+    {
+      "lab": "feedback",
+      "numpy_step_max_error": 3.8858023669742194e-16,
+      "minimum_density_eigenvalue": -1.0651366155128055e-15,
+      "trace_error": 2.3980830543179032e-14
+    }
+  ],
+  "wave_rms_errors_64_128_256": [
+    0.003992518782163851,
+    0.0009989144062695693,
+    0.00024977742803332294
+  ],
+  "wave_error_ratios": [
+    3.996857745874195,
+    3.9992180804115876
+  ],
+  "hybrid_dt_values": [
+    0.025,
+    0.0125,
+    0.00625
+  ],
+  "hybrid_reference_dt": 0.003125,
+  "hybrid_density_errors_at_t4": [
+    0.005232625280871327,
+    0.00223026566239905,
+    0.0007413369684787229
+  ],
+  "hybrid_error_ratios": [
+    2.346189231664313,
+    3.0084371307904916
+  ],
+  "scope": "Implementation cross-check; not empirical validation. No browser rendering was exercised."
+}
