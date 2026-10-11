@@ -1,0 +1,45 @@
+{
+  "schema": "efmw-multiverse-run/v1",
+  "engine": "1.0.0",
+  "initial": {
+    "lab": "feedback",
+    "dt": 0.025,
+    "coupling": 0.65,
+    "detuning": 1,
+    "memoryBias": 0.5,
+    "dephasing": 0,
+    "curveLocked": false,
+    "scripted": true,
+    "recordEnabled": true,
+    "fieldEnabled": true,
+    "sourceGain": 0.6,
+    "feedbackGain": 1.1,
+    "damping": 0.1,
+    "waveSpeed": 1,
+    "gridPoints": 128,
+    "domainLength": 24
+  },
+  "steps": 320,
+  "interventions": [],
+  "result": {
+    "time": 8,
+    "trace": 0.999999999999976,
+    "traceError": 2.398081733190338e-14,
+    "purity": 0.9999999999999508,
+    "worldPurity": 0.7335088127035063,
+    "coherence": 0.7256384518308204,
+    "record": 0.22913773608303298,
+    "mutualInformation": 0.27780973796166863,
+    "outside": 0.5335714348982166,
+    "fieldEnergy": 0.3988545706968529,
+    "fieldAmplitude": 1.1530268519794589,
+    "populations": [
+      0.26166160413660505,
+      0.10381854821025703,
+      0.10094841275489744,
+      0.32173544651485175,
+      0.133948174753979,
+      0.07788781362938582
+    ]
+  }
+}
