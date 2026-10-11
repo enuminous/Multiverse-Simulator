@@ -1,0 +1,453 @@
+{
+  "schema": "efmw-episode-dossier/v1",
+  "writerVersion": "1.0.0",
+  "runId": "run-034808c3",
+  "lab": "decoherence",
+  "experiment": "Losing the phase",
+  "duration": 8,
+  "source": {
+    "schema": "efmw-multiverse-run/v1",
+    "engine": "1.0.0",
+    "initial": {
+      "lab": "decoherence",
+      "dt": 0.025,
+      "coupling": 0.55,
+      "detuning": 1,
+      "memoryBias": 0,
+      "dephasing": 0.35,
+      "curveLocked": false,
+      "scripted": true,
+      "recordEnabled": true,
+      "fieldEnabled": false,
+      "sourceGain": 0,
+      "feedbackGain": 0,
+      "damping": 0,
+      "waveSpeed": 1,
+      "gridPoints": 128,
+      "domainLength": 24
+    },
+    "steps": 320,
+    "interventions": [],
+    "result": {
+      "time": 8,
+      "trace": 0.9999999999998619,
+      "traceError": 1.3811174426336947e-13,
+      "purity": 0.2531964658778402,
+      "worldPurity": 0.2531964658778402,
+      "coherence": 0.06208336314186986,
+      "record": 0,
+      "mutualInformation": 1.9925312853724661e-13,
+      "outside": 0.4940103272694298,
+      "fieldEnergy": 0,
+      "fieldAmplitude": 0,
+      "populations": [
+        0.2538999596356137,
+        0.2520897130948184,
+        0.2375726608299213,
+        0.2564376664395085
+      ]
+    }
+  },
+  "evidenceStatus": "Deterministic measurements of a finite toy model; EFMW feedback is a modeling postulate. No empirical or television-canon claim.",
+  "interpretationRules": [
+    "Time is in normalized simulation units, not screenplay minutes.",
+    "World probabilities are ensemble weights. No individual traveler route or collapse was sampled. The dominant world is not a measured trajectory.",
+    "A one-bit register is not human memory. Any personal memory, character, institution, danger, or moral consequence is fictional.",
+    "Rows at an intervention timestamp show the state after all interventions at that timestamp; parameter changes affect subsequent evolution.",
+    "Dephasing reduces interference; it does not delete worlds. Erasing the bit does not undo the reduced-world state or field history.",
+    "The scalar field is classical, periodic, and normalized. A uniform offset may persist after its source is switched off.",
+    "The LLM narrates an already completed run and cannot change its measured history."
+  ],
+  "beats": [
+    {
+      "id": "B01",
+      "step": 0,
+      "time": 0,
+      "actions": [],
+      "metrics": {
+        "time": 0,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 1,
+        "worldPurity": 1,
+        "coherence": 1,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0.5,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ]
+      },
+      "dominantWorld": 0
+    },
+    {
+      "id": "B02",
+      "step": 20,
+      "time": 0.5,
+      "actions": [],
+      "metrics": {
+        "time": 0.5,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 0.778554763,
+        "worldPurity": 0.778554763,
+        "coherence": 0.838688645,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0.497049549,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.243410304,
+          0.259540146,
+          0.234519593,
+          0.262529956
+        ]
+      },
+      "dominantWorld": 3
+    },
+    {
+      "id": "B03",
+      "step": 50,
+      "time": 1.25,
+      "actions": [],
+      "metrics": {
+        "time": 1.25,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 0.56390158,
+        "worldPurity": 0.56390158,
+        "coherence": 0.637705441,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0.487248735,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.23712832,
+          0.275622945,
+          0.197755717,
+          0.289493018
+        ]
+      },
+      "dominantWorld": 3
+    },
+    {
+      "id": "B04",
+      "step": 70,
+      "time": 1.75,
+      "actions": [],
+      "metrics": {
+        "time": 1.75,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 0.47274019,
+        "worldPurity": 0.47274019,
+        "coherence": 0.535810784,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0.482352692,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.25134596,
+          0.266301348,
+          0.195111933,
+          0.28724076
+        ]
+      },
+      "dominantWorld": 3
+    },
+    {
+      "id": "B05",
+      "step": 90,
+      "time": 2.25,
+      "actions": [],
+      "metrics": {
+        "time": 2.25,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 0.408021961,
+        "worldPurity": 0.408021961,
+        "coherence": 0.452927579,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0.481344892,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.270035627,
+          0.248619481,
+          0.207504128,
+          0.273840764
+        ]
+      },
+      "dominantWorld": 3
+    },
+    {
+      "id": "B06",
+      "step": 110,
+      "time": 2.75,
+      "actions": [],
+      "metrics": {
+        "time": 2.75,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 0.362036358,
+        "worldPurity": 0.362036358,
+        "coherence": 0.38092946,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0.484430496,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.276463378,
+          0.239106126,
+          0.219628071,
+          0.264802425
+        ]
+      },
+      "dominantWorld": 0
+    },
+    {
+      "id": "B07",
+      "step": 140,
+      "time": 3.5,
+      "actions": [],
+      "metrics": {
+        "time": 3.5,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 0.316848327,
+        "worldPurity": 0.316848327,
+        "coherence": 0.294913094,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0.493756944,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.256143846,
+          0.25009921,
+          0.22396181,
+          0.269795134
+        ]
+      },
+      "dominantWorld": 3
+    },
+    {
+      "id": "B08",
+      "step": 160,
+      "time": 4,
+      "actions": [],
+      "metrics": {
+        "time": 4,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 0.297467832,
+        "worldPurity": 0.297467832,
+        "coherence": 0.246848602,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0.50014329,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.239031564,
+          0.260825145,
+          0.226464346,
+          0.273678944
+        ]
+      },
+      "dominantWorld": 3
+    },
+    {
+      "id": "B09",
+      "step": 180,
+      "time": 4.5,
+      "actions": [],
+      "metrics": {
+        "time": 4.5,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 0.283831075,
+        "worldPurity": 0.283831075,
+        "coherence": 0.208410955,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0.504554907,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.231878386,
+          0.263566707,
+          0.235358111,
+          0.269196796
+        ]
+      },
+      "dominantWorld": 3
+    },
+    {
+      "id": "B10",
+      "step": 210,
+      "time": 5.25,
+      "actions": [],
+      "metrics": {
+        "time": 5.25,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 0.270244129,
+        "worldPurity": 0.270244129,
+        "coherence": 0.162869292,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0.505700245,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.237150376,
+          0.257149379,
+          0.251109364,
+          0.254590881
+        ]
+      },
+      "dominantWorld": 1
+    },
+    {
+      "id": "B11",
+      "step": 230,
+      "time": 5.75,
+      "actions": [],
+      "metrics": {
+        "time": 5.75,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 0.264311933,
+        "worldPurity": 0.264311933,
+        "coherence": 0.136647272,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0.503259162,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.241330657,
+          0.255410181,
+          0.252757512,
+          0.25050165
+        ]
+      },
+      "dominantWorld": 1
+    },
+    {
+      "id": "B12",
+      "step": 250,
+      "time": 6.25,
+      "actions": [],
+      "metrics": {
+        "time": 6.25,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 0.260117996,
+        "worldPurity": 0.260117996,
+        "coherence": 0.114937929,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0.499592762,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.242593377,
+          0.257813861,
+          0.246470579,
+          0.253122184
+        ]
+      },
+      "dominantWorld": 1
+    },
+    {
+      "id": "B13",
+      "step": 270,
+      "time": 6.75,
+      "actions": [],
+      "metrics": {
+        "time": 6.75,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 0.257200159,
+        "worldPurity": 0.257200159,
+        "coherence": 0.095193407,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0.496116036,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.243647908,
+          0.260236056,
+          0.238465095,
+          0.257650941
+        ]
+      },
+      "dominantWorld": 1
+    },
+    {
+      "id": "B14",
+      "step": 300,
+      "time": 7.5,
+      "actions": [],
+      "metrics": {
+        "time": 7.5,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 0.254419751,
+        "worldPurity": 0.254419751,
+        "coherence": 0.072868819,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0.493516929,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.249642551,
+          0.256840519,
+          0.234788269,
+          0.258728661
+        ]
+      },
+      "dominantWorld": 3
+    },
+    {
+      "id": "B15",
+      "step": 320,
+      "time": 8,
+      "actions": [],
+      "metrics": {
+        "time": 8,
+        "trace": 1,
+        "traceError": 0,
+        "purity": 0.253196466,
+        "worldPurity": 0.253196466,
+        "coherence": 0.062083363,
+        "record": 0,
+        "mutualInformation": 0,
+        "outside": 0.494010327,
+        "fieldEnergy": 0,
+        "fieldAmplitude": 0,
+        "populations": [
+          0.25389996,
+          0.252089713,
+          0.237572661,
+          0.256437666
+        ]
+      },
+      "dominantWorld": 3
+    }
+  ]
+}
