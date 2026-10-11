@@ -1,0 +1,9 @@
+Copyright (c) 2026 Matthew Chenoweth Wright / Monolithic LLC.
+All rights reserved.
+
+This package does not grant an open-source license. Any separate license or
+permission from the rights holder governs redistribution and reuse.
+
+Third-party works cited in the documentation retain their respective rights.
+Rick and Morty and related names belong to their respective rights holders.
+No affiliation or endorsement is asserted.

@@ -1,0 +1,18 @@
+{
+  "name": "efmw-multiverse-simulator",
+  "version": "1.1.0",
+  "description": "Six EFMW Physics simulators plus a grounded LLM episode writer and an original fan screenplay.",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "Matthew Chenoweth Wright / Monolithic LLC",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "check": "node scripts/check.js",
+    "build": "node scripts/build.js",
+    "simulate": "node scripts/simulate.js",
+    "series": "node scripts/series.js",
+    "episode": "node scripts/episode.js",
+    "start": "python3 -m http.server 8000 --bind 127.0.0.1"
+  }
+}

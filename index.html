@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1118">
+  <meta name="description" content="Six interactive EFMW Physics experiments in coupled worlds, quantum memory, decoherence, scalar fields, and feedback. Runs offline.">
+  <title>EFMW Physics — Multiverse Simulator Series</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="src/series.js"></script>
+  <script defer src="src/engine.js"></script>
+  <script defer src="src/story.js"></script>
+  <script defer src="assets/app.js"></script>
+  <script defer src="assets/demo-episode.js"></script>
+  <script defer src="assets/writer.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to simulator</a>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#portal" aria-label="EFMW Physics home"><span class="brand-mark" aria-hidden="true">φ</span><span>EFMW<span class="brand-sub">PHYSICS LABORATORY</span></span></a>
+      <div class="sidebar-intro"><span class="eyebrow">SIMULATOR SERIES / 001</span><h1>The multiverse<br>has a memory.</h1><p>Six experiments in worlds,<br>records, and recursive fields.</p></div>
+      <nav id="seriesNav" aria-label="Experiment series"></nav>
+      <div class="sidebar-bottom"><span class="small-dot"></span> Local computation · no account<br><p>Matthew Chenoweth Wright<br>Monolithic LLC · 2026</p><a href="README.md">Repository guide ↗</a></div>
+    </aside>
+    <main id="main">
+      <header class="topbar"><div><span class="breadcrumb">NARRATIVE FIELD STUDIES</span><span class="version">v1.1.0</span></div><a href="#writer">Episode writer ↗</a><a href="#methods">Equations &amp; methods <span aria-hidden="true">↗</span></a></header>
+      <section class="intro" aria-labelledby="labTitle">
+        <div class="intro-copy"><p class="eyebrow" id="category"></p><h2 id="labTitle"></h2><p class="subtitle" id="subtitle"></p><p class="description" id="description"></p></div>
+        <div class="experiment-number" id="experimentNumber" aria-hidden="true">01</div>
+      </section>
+      <div class="equation-banner"><span class="equation" id="equation"></span><span class="units">NORMALIZED UNITS · ℏ = 1</span></div>
+      <div class="workspace">
+        <section class="panel stage" aria-label="Live simulation">
+          <div class="panel-heading"><div><span class="eyebrow" id="stageTitle">WORLD PROBABILITIES</span><span class="live-status" id="runningStatus">PAUSED</span></div><span class="clock" id="clock">t = 0.000</span></div>
+          <div class="stage-wrap"><canvas id="worldCanvas" aria-label="World graph; exact probabilities are in the accessible measurements below" role="img"></canvas><div class="stage-caption" id="stageCaption"></div></div>
+          <div class="transport"><button class="primary" id="play" type="button">▶ Run experiment</button><button id="step" type="button">Step</button><button id="reset" type="button">↺ Reset</button><label class="speed-label">Speed <select id="speed" aria-label="Playback speed"><option value="1">1×</option><option value="2" selected>2×</option><option value="4">4×</option><option value="8">8×</option></select></label></div>
+          <p class="question" id="question"></p>
+        </section>
+        <section class="panel controls" aria-labelledby="controlsTitle">
+          <div class="panel-heading"><h3 id="controlsTitle">Experiment controls</h3><span class="eyebrow">LIVE</span></div>
+          <div id="sliders"></div>
+          <label class="toggle"><input id="scripted" type="checkbox" checked><span>Guided event sequence</span></label>
+          <div id="curveControls" hidden><button id="toggleCurve" type="button" class="wide">Open boundary</button></div>
+          <div class="interventions" id="memoryControls" hidden>
+            <div class="control-caption">PORTABLE RECORD</div>
+            <label>Origin world <select id="origin" aria-label="Origin or record world"></select></label><label>Destination <select id="destination" aria-label="Destination world"></select></label>
+            <button id="record" type="button" class="wide">Toggle record at origin</button><button id="swap" type="button" class="wide">Swap worlds · carry record</button><button id="erase" type="button" class="quiet wide">Discard record</button>
+          </div>
+          <p class="control-help">Changes take effect immediately and are saved in the replay log. Reset restores this experiment’s defaults.</p>
+        </section>
+      </div>
+      <section class="metrics" aria-label="Live measurements">
+        <div class="metric"><span>Total probability</span><strong id="metricTrace">1.000000</strong><small id="metricError">trace error 0</small></div>
+        <div class="metric"><span>World coherence</span><strong id="metricCoherence">0.000</strong><small>normalized off-diagonal sum</small></div>
+        <div class="metric"><span>Recorded bit P(1)</span><strong id="metricRecord">0.000</strong><small>portable one-bit register</small></div>
+        <div class="metric"><span id="metricFourthLabel">World purity</span><strong id="metricFourth">1.000</strong><small id="metricFourthHelp">Tr(ρworld²)</small></div>
+      </section>
+      <div class="plots">
+        <section class="panel"><div class="panel-heading"><h3>What the worlds share</h3><span class="eyebrow">|ρworld|</span></div><canvas id="matrixCanvas" class="matrix-canvas" role="img" aria-label="Reduced-world density matrix magnitudes; diagonal entries are probabilities"></canvas><p class="plot-caption">Diagonal: probability. Off-diagonal: coherence between worlds. Absolute values shown; phase is omitted.</p></section>
+        <section class="panel"><div class="panel-heading"><h3>The history of this run</h3><span class="eyebrow">0 → 1</span></div><canvas id="historyCanvas" class="history-canvas" role="img" aria-label="History of coherence, record probability, and reduced-world purity"></canvas><div class="legend"><span class="lime">World coherence</span><span class="coral">Recorded bit</span><span class="blue">World purity</span></div></section>
+      </div>
+      <section class="insight"><span class="insight-symbol" aria-hidden="true">↗</span><div><h3>What to look for</h3><p id="observe"></p></div></section>
+      <section class="panel comparison"><div class="panel-heading"><div><h3>Remove one mechanism</h3><p class="muted">Fresh runs to t = 8 using the current settings and guided-event toggle. Manual interventions are excluded.</p></div><button id="compare" type="button">Run comparison</button></div><div id="comparisonResult"><p class="empty-state">A mechanism earns its explanation by changing a measurement. Compare the full setup with a specified ablation.</p></div></section>
+      <div class="data-panels">
+        <section class="panel"><div class="panel-heading"><h3>Event record</h3><span class="eyebrow" id="eventCount">0 EVENTS</span></div><ol id="eventLog" class="event-log"><li>No interventions yet.</li></ol></section>
+        <section class="panel export-panel"><div class="panel-heading"><h3>Keep the experiment</h3><span class="eyebrow">REPRODUCIBLE</span></div><p>Save the initial conditions, interventions, and step count. Import a run to reconstruct it with the same engine.</p><div class="export-buttons"><button id="exportJSON" type="button">↓ Run JSON</button><button id="exportCSV" type="button">↓ Data CSV</button><button id="importJSON" type="button">↑ Import run</button><input type="file" id="fileInput" accept="application/json,.json" hidden></div><p class="muted">CSV samples every 10 steps, at interventions, and at the endpoint. JSON retains the complete intervention sequence.</p></section>
+      </div>
+      <details class="panel measurements"><summary>Accessible measurements &amp; world probabilities</summary><div id="measurementTable"></div></details>
+      <section class="panel writer" id="writer" aria-labelledby="writerTitle">
+        <div class="panel-heading"><div><p class="eyebrow">SIMULATE → WRITE → TRACE THE SCENES</p><h2 id="writerTitle">From world history to episode.</h2></div><span class="writer-badge">LLM WRITER</span></div>
+        <p>Turn measured events into an original Rick and Morty fan script. Read the included episode, or capture your current experiment to write another.</p>
+        <div class="writer-actions"><button class="primary" id="writerSample" type="button">Read the sample episode</button><button id="writerCapture" type="button">Prepare current run</button></div>
+        <p id="writerContext" class="muted">The sample follows a separate 14-unit scenario with a record gate, open boundary, world swap, dephasing, erasure, and shutdown.</p>
+        <details class="writer-settings"><summary>Write a new episode</summary>
+          <label for="writerPremise">Optional premise</label><textarea id="writerPremise" maxlength="1200" rows="3" placeholder="A machine promises consequence-free travel. What does it fail to erase?"></textarea>
+          <div class="writer-actions"><button id="writerPrompt" disabled type="button">↓ LLM prompt</button><button id="writerRun" disabled type="button">↓ Replay JSON</button><button id="writerImport" disabled type="button">↑ Import script JSON</button><input type="file" id="writerFile" accept="application/json,.json" hidden></div>
+          <p>After preparing a run, paste its prompt into an LLM and save the returned JSON. For automatic generation, use the Node command below with your API key set in the shell.</p>
+          <code class="writer-command">node scripts/episode.js --replay efmw-episode-run.json --provider openai --model YOUR_MODEL</code>
+          <p class="muted">The static page works offline. API generation runs on your computer and sends the story brief and numerical dossier to OpenAI. <a href="docs/EPISODE-WRITER.md">Setup &amp; options ↗</a></p>
+        </details>
+        <p id="writerStatus" class="writer-status" role="status" aria-live="polite">The included sample is prewritten from an executed run; it does not require an API key.</p>
+        <div id="episodeResult" hidden>
+          <div class="episode-heading"><span class="eyebrow">ORIGINAL, UNOFFICIAL FAN FICTION</span><h3 id="scriptTitle"></h3><p id="scriptLogline"></p><p class="muted" id="scriptMeta"></p><button id="writerFountain" disabled type="button">↓ Download screenplay</button></div>
+          <details class="scene-audit"><summary>Inspect the simulation behind a scene</summary><label for="sceneSelect">Scene</label><select id="sceneSelect"></select><div id="sceneEvidence"></div></details>
+          <pre id="scriptBody" class="screenplay" tabindex="0" aria-label="Full episode screenplay"></pre>
+        </div>
+      </section>
+      <section class="methods" id="methods" aria-labelledby="methodsTitle"><p class="eyebrow">THE MODEL, MADE EXPLICIT</p><h2 id="methodsTitle">Equations with boundaries.</h2><p class="methods-lead">A finite computational interpretation of a fictional multiverse, developed under EFMW Physics. The first four experiments use standard quantum mathematics. The last two explore a normalized source equation and an explicitly proposed feedback rule.</p>
+        <div class="method-grid"><article><span>01 / STATE</span><h3>World × record</h3><p>The state space is ℂᴺ ⊗ ℂ², with N = 2, 4, or 6. A density matrix represents probabilities and correlations. A one-bit register stands in for a minimal carried record; it is not a model of human consciousness.</p><code>Hₐₘ,ᵦₙ = δₘₙ[δₐᵦ(εₐ + ηm vₐ + gφₐ) + κAₐᵦBₐᵦ]</code></article><article><span>02 / EVOLUTION</span><h3>Unitary transport + dephasing</h3><p>Real symmetric Hamiltonians are diagonalized numerically. Each frozen step uses U = exp(−iHΔt), with dephasing half-steps on either side. No probability renormalization hides numerical drift.</p><code>ρ → DΔt/2(U DΔt/2(ρ) U†)</code></article><article><span>03 / FIELD</span><h3>A periodic scalar domain</h3><p>The classical field uses 128 points across a length-24 domain, velocity Verlet, and split damping. The Courant ratio is checked. The periodic zero mode may accumulate under sustained nonzero-mean forcing.</p><code>φ̈ + 2ζφ̇ − c²φ″ = −S</code></article><article><span>04 / INTERPRETATION</span><h3>A simulator, with testable limits</h3><p>Portal links and field feedback are modeling assumptions. This project does not derive television episodes, establish travel between universes, or validate EFMW as a law of nature.</p><code>Numerical agreement ≠ empirical confirmation</code></article></div>
+        <p class="method-status" id="modelStatus"></p><div class="doc-links"><a href="docs/EQUATIONS.md">Full derivation ↗</a><a href="docs/EXPERIMENTS.md">Six experiment protocols ↗</a><a href="docs/VALIDATION.md">Validation evidence ↗</a><a href="docs/CLAIMS.md">Claims &amp; assumptions ↗</a><a href="docs/SOURCES.md">Primary sources ↗</a></div>
+      </section>
+      <footer><span>EFMW PHYSICS / MULTIVERSE SIMULATOR SERIES</span><span>Created for Matthew Chenoweth Wright · Monolithic LLC</span><p>An independent educational project inspired by Rick and Morty. No show assets or endorsement are included.</p></footer>
+    </main>
+  </div>
+  <div class="toast" id="notice" role="status" aria-live="polite" hidden></div>
+  <noscript><p class="noscript">Enable JavaScript to run the simulations. The README and equation documentation can be read without it.</p></noscript>
+</body>
+</html>
