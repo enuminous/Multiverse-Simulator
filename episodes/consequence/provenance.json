@@ -1,0 +1,12 @@
+{
+  "method": "assistant-authored-from-executed-simulation",
+  "model": null,
+  "liveApiCall": false,
+  "generatedAt": "2026-10-11",
+  "note": "Authored in this ChatGPT conversation after reading actual simulator telemetry. Exact serving model not recorded. No API response ID exists.",
+  "engine": "1.0.0",
+  "writerVersion": "1.0.0",
+  "runId": "run-7504abab",
+  "sourceSha256": "1f590183460a6e38c74672a468cc5337d3d979680d2f33a05acd338d56cc5533",
+  "scriptSha256": "292aef83b4dcd35bc5258b1de76480cf22f4648d560b6317858e48a8f2f9268f"
+}

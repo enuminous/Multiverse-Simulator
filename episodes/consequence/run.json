@@ -1,0 +1,96 @@
+{
+  "schema": "efmw-multiverse-run/v1",
+  "engine": "1.0.0",
+  "initial": {
+    "lab": "feedback",
+    "dt": 0.025,
+    "coupling": 0.65,
+    "detuning": 1,
+    "memoryBias": 0.5,
+    "dephasing": 0,
+    "curveLocked": true,
+    "scripted": false,
+    "recordEnabled": true,
+    "fieldEnabled": true,
+    "sourceGain": 0.6,
+    "feedbackGain": 1.1,
+    "damping": 0.1,
+    "waveSpeed": 1,
+    "gridPoints": 128,
+    "domainLength": 24
+  },
+  "steps": 560,
+  "interventions": [
+    {
+      "step": 80,
+      "action": {
+        "type": "record",
+        "world": 1
+      }
+    },
+    {
+      "step": 160,
+      "action": {
+        "type": "parameters",
+        "values": {
+          "curveLocked": false
+        }
+      }
+    },
+    {
+      "step": 240,
+      "action": {
+        "type": "swap",
+        "a": 1,
+        "b": 4
+      }
+    },
+    {
+      "step": 320,
+      "action": {
+        "type": "parameters",
+        "values": {
+          "dephasing": 0.65
+        }
+      }
+    },
+    {
+      "step": 400,
+      "action": {
+        "type": "erase"
+      }
+    },
+    {
+      "step": 480,
+      "action": {
+        "type": "parameters",
+        "values": {
+          "sourceGain": 0,
+          "feedbackGain": 0,
+          "coupling": 0
+        }
+      }
+    }
+  ],
+  "result": {
+    "time": 14,
+    "trace": 0.9999999999999958,
+    "traceError": 4.218847493575595e-15,
+    "purity": 0.17062837142006415,
+    "worldPurity": 0.17062837142006415,
+    "coherence": 0.014722851253776426,
+    "record": 0,
+    "mutualInformation": 6.086510357248304e-15,
+    "outside": 0.4783365808089932,
+    "fieldEnergy": 0.27388081213479365,
+    "fieldAmplitude": 2.109308941590359,
+    "populations": [
+      0.21877832006175096,
+      0.1425102165518276,
+      0.16037488257742394,
+      0.15290521794150444,
+      0.1543401115307488,
+      0.17109125133673994
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "run_id": "run-7504abab",
+  "title": "The Consequence Engine",
+  "logline": "Rick markets a machine that replaces damaged worlds; Morty discovers that moving elsewhere, blurring interference, and clearing a record cannot repair what the machine has already changed.",
+  "scenes": [
+    {
+      "act": "COLD OPEN",
+      "heading": "INT. SMITH GARAGE - MORNING",
+      "beat_ids": [
+        "B01"
+      ],
+      "fountain": "A toaster-sized machine sits on Rick's bench. Its label reads RETURN POLICY. A smaller label reads POLICY SUBJECT TO REALITY.\n\nSix windows hover above it. Only the first is lit. Rick places a mug inside the machine and hits it with a hammer.\n\nMORTY\nThat was Mom's mug.\n\nRICK\nIt was an extremely local arrangement of mug. Watch the warranty.\n\nHe turns a dial. The windows overlap. A pristine mug appears beside the fragments.\n\nMORTY\nYou fixed it?\n\nRICK\nI broadened where we shop for the word fixed.\n\nMorty reaches for the replacement. It has a different child's handprint on it.\n\nMORTY\nThat says \"Love, Brundle.\"\n\nRICK\nUnrelated manufacturing detail.\n\nThe original fragments remain. Rick covers them with a towel bearing the words LABORATORY PROCEDURE.\n\nMORTY\nI thought the whole point of a return was getting back to before.\n\nRICK\nThe whole point of a return is making someone else operate the desk.\n\nOn Rick's monitor: WORLD WEIGHTS [1, 0, 0, 0, 0, 0]. Below it, FIELD ENERGY: 0.\n\nHe gestures toward a green aperture forming behind the bench.\n\nRICK\nThree connected demonstration worlds. Nothing crosses the perimeter. A beautifully constrained bad idea.\n\nJerry enters, sees the intact mug, and picks up the machine's promotional brochure.\n\nJERRY\nCan this do a Tuesday?\n\nRick and Morty look at him.\n\nJERRY\nNot this Tuesday. I don't want to get greedy.",
+      "inventions": [
+        "The Return Policy appliance, replacement mugs, characters, and garage demonstration are fictional; the ensemble starts entirely in world 0."
+      ]
+    },
+    {
+      "act": "COLD OPEN",
+      "heading": "EXT. THREE-WORLD DEMONSTRATION PLAZA - CONTINUOUS",
+      "beat_ids": [
+        "B02"
+      ],
+      "fountain": "Rick and Morty step into a showroom with three enormous doors. Each has a different sky behind it. Beyond the showroom, a dark railing surrounds three more doors.\n\nA host with a smiling rectangular face rolls forward. A badge reads MANAGER. Its smile is printed on a removable panel.\n\nMANAGER\nWelcome. If you are dissatisfied with your consequences, retain your receipt.\n\nMORTY\nThat's a weird thing to say before anything happens.\n\nRICK\nThat's retail, Morty. Threats with carpeting.\n\nA floor map shows light spreading among the first three windows. The other three remain dark. Rick points to a small moving graph.\n\nRICK\nEnsemble weights. The display is not telling you which door your particular shoes are going to choose.\n\nMorty nods. He has already put one shoe through a door.\n\nFrom far away: a small CRACK. A decorative fountain drops half an inch. Rick glances at FIELD ENERGY: 0.0982, then angles the monitor away.\n\nMORTY\nWhat was that?\n\nRICK\nThe floor acknowledging a feature.\n\nAt home, Jerry tears the customer copy off the brochure. It says STORE CREDIT ONLY.\n\nJERRY\nHonestly? Progress.\n\nThe plaza's manager rotates its smile upside down.\n\nSMASH CUT TO TITLES.",
+      "inventions": [
+        "The showroom and its host are invented. Rick and Morty following a single path and a fountain cracking are dramatizations, not a sampled quantum trajectory or a computed material failure."
+      ]
+    },
+    {
+      "act": "ACT ONE",
+      "heading": "INT. DEMONSTRATION PLAZA - RECEIPT COUNTER",
+      "beat_ids": [
+        "B03"
+      ],
+      "fountain": "The manager offers Morty a little paper crown: SATISFIED VISITOR.\n\nMORTY\nI haven't decided if I'm satisfied.\n\nMANAGER\nThe crown is provisional. Removing it requires a different crown.\n\nMorty bumps a glass ornament off the counter. It breaks. A worker begins gathering the pieces.\n\nMORTY\nSorry. I can help.\n\nRick produces another ornament from a neighboring doorway.\n\nRICK\nOr we can help faster by being done.\n\nThe worker keeps sweeping the original pieces. Morty notices.\n\nThe manager scans his wrist. On the monitor a register lights up: RECORD P(1): 0.399466611.\n\nMORTY\nDoes that mean I'm thirty-nine percent guilty?\n\nRICK\nNo. It means a controlled gate changed a bit in one world sector. Guilt is the free accessory your brain keeps installing.\n\nMANAGER\nOur transit register permits us to recognize your visit after a relocation.\n\nMORTY\nSo there's a receipt for the receipt?\n\nMANAGER\nWe call that trust.\n\nThe worker sweeps around their feet. Morty kneels and picks up a large shard.\n\nRICK\nCareful. That's from the world where it was already broken.\n\nMORTY\nI watched myself break it.\n\nRick holds out the perfect replacement.\n\nRICK\nAnd now you're watching me provide an attractive second fact.\n\nMorty sets the shard down beside the new ornament. The two facts do not cancel.",
+      "inventions": [
+        "The ornament accident, wrist scanner, retail records, and moral discussion are invented. The register represents only one bit, not guilt or autobiographical memory."
+      ]
+    },
+    {
+      "act": "ACT ONE",
+      "heading": "INT. SMITH KITCHEN - SAME TIME",
+      "beat_ids": [
+        "B04"
+      ],
+      "fountain": "Jerry has connected the Return Policy's customer terminal to the kitchen television. A friendly menu asks WHAT WOULD YOU LIKE TO REPLACE?\n\nJERRY\nI said something at a neighborhood meeting.\n\nSUMMER\nThat could be any meeting you've ever attended.\n\nJERRY\nI called the speed bump a \"road ottoman.\" People thought I was making a point.\n\nSummer records this on a notepad labeled THINGS DAD WANTS UNHAPPENED.\n\nBeth examines the mug with the alien child's handprint.\n\nBETH\nWho's Brundle?\n\nJERRY\nPossibly a loyalty program.\n\nThe television generates an apology certificate: THIS HOUSEHOLD HAS ELECTED TO CONSIDER THE MATTER RESOLVED.\n\nJerry relaxes. His phone rings. NEIGHBORHOOD GROUP.\n\nJERRY\nWhy can they still call?\n\nSUMMER\nBecause you printed a sentence.\n\nThe mug rattles. A thin ripple travels across the kitchen tiles. Summer puts her notepad on top of it as though paper might hold the floor down.\n\nOn the television: FIELD ENERGY 0.2548. RECORDED BIT PROBABILITY 0.399466611.\n\nBETH\nDoes your father know this thing is moving the grout?\n\nSUMMER\nThe grandpa father or the certificate father?\n\nJerry peers at the apology certificate.\n\nJERRY\nI think I bought the version that only apologizes to me.",
+      "inventions": [
+        "The Smith household, apology certificates, and moving grout are an invented B plot. No remote household or social network is part of the numerical state."
+      ]
+    },
+    {
+      "act": "ACT ONE",
+      "heading": "INT. DEMONSTRATION PLAZA - BOUNDARY CONTROL",
+      "beat_ids": [
+        "B05"
+      ],
+      "fountain": "The plaza has developed a gentle slope. The manager slides downhill with professional composure.\n\nMANAGER\nYour displacement is producing a local field response. We recommend expanding your service area.\n\nRick examines the return cable. A green waveform feeds into the energy settings of the doors, which feed back into the waveform.\n\nMORTY\nIs the machine making the place react, then reacting to what it made?\n\nRICK\nThat is a very accusatory description of a feedback system.\n\nRick finds the switch labeled BOUNDARY LINKS. It is locked.\n\nMORTY\nYou said it was constrained.\n\nRICK\nAnd now the constraint is constraining my options. Development is a journey.\n\nHe opens the switch cover.\n\nThe manager offers an EXTENDED CONSEQUENCE PLAN. Morty pushes the brochure away.\n\nMORTY\nMaybe turn the machine off first?\n\nRICK\nWe have three empty worlds behind that boundary. We spread the load, everyone gets a smaller problem.\n\nMORTY\nDid you ask the empty worlds if they're empty?\n\nRick flicks the switch. The three dark doors gain green edges.\n\nFor one quiet instant the exterior probability display still reads 0.000000.\n\nRICK\nSee? Very respectful rollout.\n\nOne second later, light begins crawling through the newly opened links. Behind a door, a CIVIC MEETING is interrupted by their ceiling becoming a showroom floor.\n\nCHAIRPERSON (O.S.)\nWe will add this to new business.",
+      "inventions": [
+        "The manager suggesting expansion and Rick choosing to open links are dramatic motivations attached to a preplanned intervention. The solver contains no civic meeting or intelligence."
+      ]
+    },
+    {
+      "act": "ACT TWO",
+      "heading": "EXT. WORLD FIVE - CIVIC SQUARE",
+      "beat_ids": [
+        "B06"
+      ],
+      "fountain": "Rick and Morty stumble into a square full of municipal folding chairs. A brass statue depicts somebody filling out a form.\n\nThe chairperson, a many-jointed woman named VENN, holds a microphone connected to nothing.\n\nVENN\nAre you the expansion?\n\nRICK\nDepends on whether that's a compliment or a zoning category.\n\nVenn points to a fissure running through the square. Green light pulses beneath it. Rick's handheld shows EXTERIOR WEIGHT: 0.258753.\n\nMORTY\nThat's a quarter of the weight outside already.\n\nRICK\nProbability weight. Please don't turn the instrument into a population census.\n\nVENN\nWhatever unit you've chosen, my meeting is leaning.\n\nMorty sees a child carefully lifting chairs away from the fissure. He starts helping.\n\nRick scans the sky. The waveform is now etched across it like a giant return address.\n\nMANAGER\n(emerging from the aperture)\nGood news. Your plan now includes these customers.\n\nVENN\nWe didn't purchase anything.\n\nMANAGER\nThat was the good news.\n\nVenn turns off her unconnected microphone. The lights in the square dim anyway.\n\nMORTY\nWe have to stay and fix this.\n\nRick looks from the damaged square to the still-functioning doors.\n\nRICK\nWe have to stay in the general category of fixing this. Geography is negotiable.\n\nHe lifts a device with two world numbers on it and presses SWAP.",
+      "inventions": [
+        "Venn, the civic square, and visible damage are invented. Exterior probability is not a count of people displaced; the characters' route is a story choice."
+      ]
+    },
+    {
+      "act": "ACT TWO",
+      "heading": "INT. REPLACEMENT SHOWROOM - CONTINUOUS",
+      "beat_ids": [
+        "B07"
+      ],
+      "fountain": "The plaza changes around them. Broken tiles become immaculate. The ceiling rises. A fountain runs correctly for the first time.\n\nRick spreads his arms.\n\nRICK\nLocation problem solved. That was most of the visible problem.\n\nMorty checks his wrist. The little transit mark remains.\n\nAt the desk, the same manager pulls a receipt from a slot.\n\nMANAGER\nWelcome back.\n\nRICK\nWe have never been to this desk.\n\nMANAGER\nThe desk agrees. Your record doesn't.\n\nOn the scanner: WORLD SWAP 1 / 4. RECORD P(1): 0.399466611.\n\nMORTY\nIt came with us.\n\nRICK\nThe world labels were permuted. The record register wasn't. That's correct operation presented in a very hostile font.\n\nThrough the new showroom window, the sky still carries the broad green waveform.\n\nThe manager rotates its faceplate to a neutral expression.\n\nMANAGER\nReplacement premises do not include replacement history.\n\nMorty sets the shard from the first ornament on the desk. He has been carrying it in his pocket.\n\nMORTY\nNeither does replacing the ornament.\n\nFor a moment Rick has no immediate line. He takes out a second device instead.\n\nRICK\nOkay. New approach. We make the machine less interested in which world agrees with which other world.\n\nThe manager quietly puts a bucket under a brand-new crack.",
+      "inventions": [
+        "The showroom relocation and the manager recognizing a visitor are fictional renderings of a world permutation that leaves the bit marginal unchanged."
+      ]
+    },
+    {
+      "act": "ACT TWO",
+      "heading": "INT. SMITH KITCHEN / SHOWROOM - INTERCUT",
+      "beat_ids": [
+        "B08"
+      ],
+      "fountain": "Summer has covered the kitchen table with handwritten cards: CRACK IN FLOOR. MUG BELONGS TO BRUNDLE. DAD STILL IN GROUP CHAT.\n\nBeth is on speakerphone with Morty.\n\nBETH\nWhy is the grout making that noise?\n\nMORTY\nIt's a field thing. We're working on it.\n\nSUMMER\nIs the field thing why my phone says the kitchen is under warranty in six places?\n\nRick pulls the phone toward himself.\n\nRICK\nDo not accept any cookies from the floor.\n\nJerry enters with a second certificate.\n\nJERRY\nI found \"erase associated record.\" That's what we want, right?\n\nSummer takes the certificate from him and writes PAPER STILL EXISTS on another card.\n\nJERRY\nThat's not a very encouraging filing system.\n\nSUMMER\nIt's not an encouragement system.\n\nAt the showroom, Venn appears in the doorway carrying a chair with one short leg. She sets it beside Rick.\n\nVENN\nYour new location has excellent parking. I followed the damage.\n\nRICK\nThat is aggressively inconvenient investigative work.\n\nVenn sits. The chair rocks. She folds a promotional brochure and puts it under the short leg.\n\nVENN\nThere. One of your documents has solved something.\n\nMorty laughs despite himself. Rick stares at the brochure shim longer than he needs to.",
+      "inventions": [
+        "Phone calls, handwritten external records, and tracking the damage are fictional bridges. No external memory system was simulated."
+      ]
+    },
+    {
+      "act": "ACT TWO",
+      "heading": "INT. REPLACEMENT SHOWROOM - PHASE CONTROL BOOTH",
+      "beat_ids": [
+        "B09"
+      ],
+      "fountain": "Rick assembles a helmet out of display headphones and a blender lid. He puts it on the machine.\n\nMORTY\nWhy does the machine need headphones?\n\nRICK\nIt doesn't. I need the salespeople to stop asking what I'm doing.\n\nHe raises DEPHASING to 0.65. Behind the display, the crisp intersections between glowing world windows begin to soften.\n\nThe windows remain.\n\nMORTY\nAre you deleting the other worlds?\n\nRICK\nNo. Losing phase relationships. The probability is still there. Worlds do not get deleted because I bought the noise setting.\n\nMANAGER\nNoise is included in all plans.\n\nRick sets a mug on the floor. Its jitter lessens. Across the showroom, the broad sag in the floor remains.\n\nMORTY\nIt looks quieter.\n\nRICK\nQuiet is a diagnostic category with a great publicist.\n\nOn the monitor, coherence begins at 0.534673. The record indicator holds at 0.399466611.\n\nVenn watches a crack creep under her chair.\n\nVENN\nDoes quieter usually mean the crack stops?\n\nRick puts one finger over the field-energy readout, fails to cover it completely, and removes his hand.\n\nRICK\nNot automatically.\n\nThe manager offers Venn headphones. She uses them to tie the two broken pieces of the chair leg together.",
+      "inventions": [
+        "The headphone device and quieter room are invented visual metaphors for an increase in the dephasing rate. The solver does not render sound or destroy worlds."
+      ]
+    },
+    {
+      "act": "ACT TWO",
+      "heading": "INT. REPLACEMENT SHOWROOM - LATER",
+      "beat_ids": [
+        "B10"
+      ],
+      "fountain": "The overlapping lights have settled into a subdued haze. Coherence reads 0.290300. Field energy reads 0.525872, higher than before.\n\nThe manager plays a tranquil customer-satisfaction melody. It is slightly out of tune because the speaker is bending.\n\nMORTY\nThe interference went down. The field energy went up.\n\nRICK\nDifferent quantities. That's why I put different labels on them. A rare triumph for labels today.\n\nVENN\nYour machine is still feeding the thing that is bending my square.\n\nRick examines the cable loop again. Source into field. Field into world energies. Worlds into source.\n\nMORTY\nYou can break the loop.\n\nRICK\nI can. Then the showroom stops being a showroom. All those conveniently available next destinations stop being conveniently available.\n\nMorty looks at the pristine ornament on the counter. Beside it: the shard, the chair, and a slowly filling bucket.\n\nMORTY\nSo the machine works as long as we keep deciding the mess is somewhere else.\n\nRICK\nThe equations do not contain that sentence.\n\nMORTY\nI know. I'm talking about us.\n\nRick's hand hovers over the power isolation controls.\n\nBefore he presses them, the manager presents a large red button.\n\nMANAGER\nThere is one further resolution option. Clear associated record.\n\nThe button is much larger and easier to reach.",
+      "inventions": [
+        "The manager offering an erasure option and the ethical conflict are invented. Falling coherence and rising field energy are separate measured quantities."
+      ]
+    },
+    {
+      "act": "ACT THREE",
+      "heading": "INT. REPLACEMENT SHOWROOM - RECEIPT COUNTER",
+      "beat_ids": [
+        "B11"
+      ],
+      "fountain": "Rick presses CLEAR RECORD.\n\nThe transit light goes out. On the monitor, RECORD P(1) becomes 0.000000.\n\nThe field-energy display stays near 0.548433. The floor does not rise. The bucket keeps filling.\n\nThe manager blinks, checks an empty record, and produces a fresh paper crown.\n\nMANAGER\nWelcome, new visitor.\n\nMORTY\nThat's it?\n\nRICK\nFor that register, yes.\n\nMORTY\nIt didn't fix anything.\n\nRICK\nIt fixed having a one in a place where we requested a zero.\n\nVenn holds up her chair. Summer, still on the phone, holds up her paper cards. Beth holds the Brundle mug. Morty holds the shard.\n\nMORTY\nDid it erase what happened to us?\n\nRick looks at the room instead of his scanner.\n\nRICK\nThis is one bit. You are extremely more annoying storage than one bit.\n\nMorty accepts that as the answer it is.\n\nThe manager hands Rick a blank receipt.\n\nMANAGER\nYou now have no outstanding visit record.\n\nA ceiling tile falls into the fountain behind it.\n\nVENN\nYou still have an outstanding ceiling.\n\nRick sets the blank receipt over the red button. He walks past it toward the exposed cable loop.",
+      "inventions": [
+        "The blank receipt and surviving personal memories are invented. Register erasure has no modeled effect on human cognition; it retains the reduced-world state and the classical field."
+      ]
+    },
+    {
+      "act": "ACT THREE",
+      "heading": "INT. SMITH KITCHEN / SHOWROOM - INTERCUT",
+      "beat_ids": [
+        "B12"
+      ],
+      "fountain": "Jerry watches the apology certificate vanish from his television account. His phone lights up with the neighborhood chat again.\n\nJERRY\nApparently clearing the record also cleared my proof I apologized.\n\nSUMMER\nYou hadn't apologized to them yet.\n\nBeth gives Jerry the phone. He considers it, then types slowly.\n\nJERRY\n(reading as he types)\n\"I called it a road ottoman because I wanted people to laugh. I understand that didn't help the discussion about speeding.\"\n\nHe pauses.\n\nJERRY\nDoes that sound weak?\n\nBETH\nIt sounds like you know which meeting happened.\n\nAt the showroom, Morty calls everyone away from the doors. Venn organizes the chair carriers into a line. The manager tries to hand each worker a number.\n\nVENN\nCan you carry a bucket?\n\nMANAGER\nI am authorized to escalate a bucket.\n\nVENN\nStart at the handle.\n\nIt lifts the bucket. Its smile panel slips off, revealing a perfectly ordinary nervous face underneath.\n\nMANAGER\nI don't know where the water is supposed to go.\n\nMORTY\nNeither do we. Over here for now.\n\nRick unplugs the decorative lighting so he can see the actual wiring. The room becomes uglier and much easier to understand.",
+      "inventions": [
+        "The apology and repair crew are fictional. Physical character actions do not feed new instructions back into the completed numerical run."
+      ]
+    },
+    {
+      "act": "ACT THREE",
+      "heading": "INT. REPLACEMENT SHOWROOM - MAIN CONTROLS",
+      "beat_ids": [
+        "B13"
+      ],
+      "fountain": "Rick opens three real switches: SOURCE, RETURN COUPLING, PORTAL COUPLING.\n\nRICK\nThe source stops driving the field. The field stops shifting the transport energies. The transport links stop moving weight between worlds.\n\nMORTY\nAnd everything goes back?\n\nRick checks the populations. Six nonzero columns. Almost 0.478337 of the weight is in the exterior group.\n\nRICK\nNo. Those are the settings for stopping what we're doing now. They aren't a rewind button.\n\nHe looks up at Morty.\n\nRICK\nI should have led with that.\n\nMorty doesn't give him a speech or let him escape into a joke. He nods once.\n\nThe three switches go dark. The showroom doors stop cycling. The green field across the sky remains, but its faster ripples begin to settle.\n\nVenn checks her square through the ordinary service entrance. Still bent. No longer adding a new bend every time a customer moves.\n\nMANAGER\nHow do I classify the outcome?\n\nRICK\nInterrupted ongoing cause. Incomplete repair. Put it in a box large enough to be useful.\n\nThe manager tears RETURN POLICY off the counter and writes REPAIR DESK on the back.\n\nMorty goes to help move the first broken tile.\n\nRick takes the other end. For once, they both lift the same object in the same direction.",
+      "inventions": [
+        "The characters' decision to isolate three connections and the repair desk are narrative motivations. The three parameter changes were scheduled before writing."
+      ]
+    },
+    {
+      "act": "ACT THREE",
+      "heading": "EXT. CIVIC SQUARE - AFTER THE SHUTDOWN",
+      "beat_ids": [
+        "B14"
+      ],
+      "fountain": "A modest work crew repairs the square. The sky is still visibly distorted.\n\nRick checks the monitor: the world weights have stopped changing. The record is zero. Field energy has fallen to 0.389351.\n\nMORTY\nIt's coming down.\n\nRICK\nThe energy is. Look at the other number.\n\nThe maximum field amplitude has crept above two.\n\nMORTY\nThat went up.\n\nRICK\nDamping takes energy out of motion. A field can still sit at an offset. Flat isn't the same setting as never touched.\n\nVenn sets a spirit level on a repaired bench. It is not perfect. She slides a small shim under one leg.\n\nVENN\nThen we'll work with where it is.\n\nRick watches, pocketing the handheld without trying to improve the sentence.\n\nThe manager arrives carrying the original broken ornament. Morty and the worker glue it back together. The seam shows.\n\nMORTY\nSorry I broke this.\n\nWORKER\nThank you for saying which one.\n\nThey return home through a separate emergency extraction device. Rick labels it EXTERNAL EQUIPMENT before Morty can ask.\n\nMORTY\nYou could've gotten us home that way the whole time?\n\nRICK\nGetting home wasn't the hard part.\n\nHe looks back at the work crew, then closes the device.",
+      "inventions": [
+        "Manual repair and an external extraction device are invented, explicitly outside the simulated zero-coupling transport. The frozen ensemble itself does not return to world 0."
+      ]
+    },
+    {
+      "act": "TAG",
+      "heading": "INT. SMITH KITCHEN - EVENING",
+      "beat_ids": [
+        "B15"
+      ],
+      "fountain": "The family sits around the table. The tiles have a repaired seam. Summer's paper cards are stacked beside the salt.\n\nJerry's phone chimes. The neighborhood chat has replied: THANKS. ALSO, ROAD OTTOMAN IS PRETTY GOOD.\n\nJERRY\nThey liked it.\n\nSUMMER\nYou survived knowing what you said. Huge market opportunity.\n\nRick's monitor sits by his plate. At the end of the run: field energy 0.273881, field amplitude 2.109309, exterior weight still 0.478337.\n\nMorty puts the repaired ornament on the table.\n\nBETH\nWhere's my actual mug?\n\nRick produces it, carefully glued. Its handle is slightly crooked.\n\nRICK\nSame one. Worse than before, better than broken.\n\nBeth takes it. A knock at the back door interrupts the moment.\n\nA small, many-handed child stands there carrying a mug with Morty's old handprint on it.\n\nBRUNDLE\nI think the warranty sent me your breakfast memory vessel.\n\nBeth looks at the mug she has been using all day.\n\nBETH\nYou're Brundle.\n\nBrundle nods, then spots the repaired floor.\n\nBRUNDLE\nDid your house also buy a conclusion?\n\nSummer adds a final card to the pile: RETURN BRUNDLE'S MUG.\n\nJerry opens a kitchen drawer. It is full of blank certificates.\n\nHe closes it and gets Brundle a chair.\n\nFADE OUT.",
+      "inventions": [
+        "The family dinner, repaired mug, and Brundle visit are a fictional epilogue after the source experiment. The displayed end-state remains unrestored."
+      ]
+    }
+  ],
+  "science_notes": [
+    "The simulation was executed with engine 1.0.0: six worlds, a one-bit register, a periodic classical field, dt=0.025, and 560 steps. The scenario is a specified EFMW-inspired hybrid, not experimentally validated physics.",
+    "All dialogue, characters, locations, motives, damage, household events, and the single traveler route are original fiction. The solver evolves an ensemble density matrix; it does not sample the individual route shown in the screenplay.",
+    "World 1 toggles the bit at t=2. Boundary links open at t=4; exterior weight is still zero at that instant and becomes 0.258752933 at t=5. The world 1/4 swap at t=6 preserves the recorded-bit marginal of 0.399466611.",
+    "Dephasing is set to 0.65 at t=8. Coherence is 0.534672998 then and 0.290299909 at t=9; field energy rises from 0.490051874 to 0.525871850 over that interval. These are distinct diagnostics.",
+    "Register erasure at t=10 sets P(1) to zero and retains the reduced-world density matrix and field. This does not model the erasure or preservation of human autobiographical memories.",
+    "The source amplitude, return coupling, and portal coupling become zero at t=12. World populations then remain fixed, including exterior weight 0.478336581. Through t=14 field energy falls to 0.273880812 while maximum absolute field amplitude rises to 2.109308942. Damping does not guarantee restoration of a zero field.",
+    "Simulation time is dimensionless and not screen time. Rounded screen displays are readings from the cited beats. Narrative associations are not deductions of morality, consciousness, television canon, or physical multiverse travel.",
+    "This sample was authored by the ChatGPT assistant after inspecting the measured dossier. It was not generated by an executed OpenAI API request. The project includes a separate API adapter for future generation."
+  ]
+}

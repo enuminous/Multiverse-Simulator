@@ -1,0 +1,684 @@
+{
+  "schema": "efmw-episode-audit/v1",
+  "runId": "run-7504abab",
+  "checks": {
+    "valid": true,
+    "scenes": 15,
+    "wordCount": 3055,
+    "coveredBeats": [
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08",
+      "B09",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15"
+    ],
+    "limitation": "Checks structure, run association, and intervention coverage; does not verify the truth or quality of prose."
+  },
+  "scenes": [
+    {
+      "scene": 1,
+      "act": "COLD OPEN",
+      "heading": "INT. SMITH GARAGE - MORNING",
+      "beatIds": [
+        "B01"
+      ],
+      "evidence": [
+        {
+          "id": "B01",
+          "step": 0,
+          "time": 0,
+          "actions": [],
+          "metrics": {
+            "time": 0,
+            "trace": 1,
+            "traceError": 0,
+            "purity": 1,
+            "worldPurity": 1,
+            "coherence": 0,
+            "record": 0,
+            "mutualInformation": 0,
+            "outside": 0,
+            "fieldEnergy": 0,
+            "fieldAmplitude": 0,
+            "populations": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "dominantWorld": 0
+        }
+      ],
+      "fictionalAdditions": [
+        "The Return Policy appliance, replacement mugs, characters, and garage demonstration are fictional; the ensemble starts entirely in world 0."
+      ]
+    },
+    {
+      "scene": 2,
+      "act": "COLD OPEN",
+      "heading": "EXT. THREE-WORLD DEMONSTRATION PLAZA - CONTINUOUS",
+      "beatIds": [
+        "B02"
+      ],
+      "evidence": [
+        {
+          "id": "B02",
+          "step": 40,
+          "time": 1,
+          "actions": [],
+          "metrics": {
+            "time": 1,
+            "trace": 1,
+            "traceError": 0,
+            "purity": 1,
+            "worldPurity": 1,
+            "coherence": 0.39726223,
+            "record": 0,
+            "mutualInformation": 0,
+            "outside": 0,
+            "fieldEnergy": 0.098206167,
+            "fieldAmplitude": 0.205119924,
+            "populations": [
+              0.397077019,
+              0.311622345,
+              0.291300636,
+              0,
+              0,
+              0
+            ]
+          },
+          "dominantWorld": 0
+        }
+      ],
+      "fictionalAdditions": [
+        "The showroom and its host are invented. Rick and Morty following a single path and a fountain cracking are dramatizations, not a sampled quantum trajectory or a computed material failure."
+      ]
+    },
+    {
+      "scene": 3,
+      "act": "ACT ONE",
+      "heading": "INT. DEMONSTRATION PLAZA - RECEIPT COUNTER",
+      "beatIds": [
+        "B03"
+      ],
+      "evidence": [
+        {
+          "id": "B03",
+          "step": 80,
+          "time": 2,
+          "actions": [
+            {
+              "message": "Record bit toggled in world 1",
+              "automatic": false
+            }
+          ],
+          "metrics": {
+            "time": 2,
+            "trace": 1,
+            "traceError": 0,
+            "purity": 1,
+            "worldPurity": 0.520213925,
+            "coherence": 0.119744565,
+            "record": 0.399466611,
+            "mutualInformation": 0.970637727,
+            "outside": 0,
+            "fieldEnergy": 0.179505066,
+            "fieldAmplitude": 0.374079791,
+            "populations": [
+              0.323565452,
+              0.399466611,
+              0.276967937,
+              0,
+              0,
+              0
+            ]
+          },
+          "dominantWorld": 1
+        }
+      ],
+      "fictionalAdditions": [
+        "The ornament accident, wrist scanner, retail records, and moral discussion are invented. The register represents only one bit, not guilt or autobiographical memory."
+      ]
+    },
+    {
+      "scene": 4,
+      "act": "ACT ONE",
+      "heading": "INT. SMITH KITCHEN - SAME TIME",
+      "beatIds": [
+        "B04"
+      ],
+      "evidence": [
+        {
+          "id": "B04",
+          "step": 120,
+          "time": 3,
+          "actions": [],
+          "metrics": {
+            "time": 3,
+            "trace": 1,
+            "traceError": 0,
+            "purity": 1,
+            "worldPurity": 0.527331919,
+            "coherence": 0.143044968,
+            "record": 0.399466611,
+            "mutualInformation": 0.096226078,
+            "outside": 0,
+            "fieldEnergy": 0.254830732,
+            "fieldAmplitude": 0.492305919,
+            "populations": [
+              0.554041899,
+              0.219255448,
+              0.226702653,
+              0,
+              0,
+              0
+            ]
+          },
+          "dominantWorld": 0
+        }
+      ],
+      "fictionalAdditions": [
+        "The Smith household, apology certificates, and moving grout are an invented B plot. No remote household or social network is part of the numerical state."
+      ]
+    },
+    {
+      "scene": 5,
+      "act": "ACT ONE",
+      "heading": "INT. DEMONSTRATION PLAZA - BOUNDARY CONTROL",
+      "beatIds": [
+        "B05"
+      ],
+      "evidence": [
+        {
+          "id": "B05",
+          "step": 160,
+          "time": 4,
+          "actions": [
+            {
+              "message": "curveLocked = false",
+              "automatic": false
+            }
+          ],
+          "metrics": {
+            "time": 4,
+            "trace": 1,
+            "traceError": 0,
+            "purity": 1,
+            "worldPurity": 0.581573249,
+            "coherence": 0.205653368,
+            "record": 0.399466611,
+            "mutualInformation": 0.085176672,
+            "outside": 0,
+            "fieldEnergy": 0.324397654,
+            "fieldAmplitude": 0.686603914,
+            "populations": [
+              0.464106602,
+              0.146209491,
+              0.389683907,
+              0,
+              0,
+              0
+            ]
+          },
+          "dominantWorld": 0
+        }
+      ],
+      "fictionalAdditions": [
+        "The manager suggesting expansion and Rick choosing to open links are dramatic motivations attached to a preplanned intervention. The solver contains no civic meeting or intelligence."
+      ]
+    },
+    {
+      "scene": 6,
+      "act": "ACT TWO",
+      "heading": "EXT. WORLD FIVE - CIVIC SQUARE",
+      "beatIds": [
+        "B06"
+      ],
+      "evidence": [
+        {
+          "id": "B06",
+          "step": 200,
+          "time": 5,
+          "actions": [],
+          "metrics": {
+            "time": 5,
+            "trace": 1,
+            "traceError": 0,
+            "purity": 1,
+            "worldPurity": 0.609831097,
+            "coherence": 0.576893705,
+            "record": 0.399466611,
+            "mutualInformation": 0.494811881,
+            "outside": 0.258752933,
+            "fieldEnergy": 0.401218518,
+            "fieldAmplitude": 0.907563926,
+            "populations": [
+              0.281067253,
+              0.300364934,
+              0.15981488,
+              0.076059989,
+              0.018873846,
+              0.163819098
+            ]
+          },
+          "dominantWorld": 1
+        }
+      ],
+      "fictionalAdditions": [
+        "Venn, the civic square, and visible damage are invented. Exterior probability is not a count of people displaced; the characters' route is a story choice."
+      ]
+    },
+    {
+      "scene": 7,
+      "act": "ACT TWO",
+      "heading": "INT. REPLACEMENT SHOWROOM - CONTINUOUS",
+      "beatIds": [
+        "B07"
+      ],
+      "evidence": [
+        {
+          "id": "B07",
+          "step": 240,
+          "time": 6,
+          "actions": [
+            {
+              "message": "Swapped worlds 1 and 4; record preserved",
+              "automatic": false
+            }
+          ],
+          "metrics": {
+            "time": 6,
+            "trace": 1,
+            "traceError": 0,
+            "purity": 1,
+            "worldPurity": 0.602969065,
+            "coherence": 0.638860648,
+            "record": 0.399466611,
+            "mutualInformation": 0.336507437,
+            "outside": 0.607796128,
+            "fieldEnergy": 0.45634422,
+            "fieldAmplitude": 1.095577388,
+            "populations": [
+              0.224692553,
+              0.1110787,
+              0.056432619,
+              0.122844909,
+              0.209129239,
+              0.27582198
+            ]
+          },
+          "dominantWorld": 5
+        }
+      ],
+      "fictionalAdditions": [
+        "The showroom relocation and the manager recognizing a visitor are fictional renderings of a world permutation that leaves the bit marginal unchanged."
+      ]
+    },
+    {
+      "scene": 8,
+      "act": "ACT TWO",
+      "heading": "INT. SMITH KITCHEN / SHOWROOM - INTERCUT",
+      "beatIds": [
+        "B08"
+      ],
+      "evidence": [
+        {
+          "id": "B08",
+          "step": 280,
+          "time": 7,
+          "actions": [],
+          "metrics": {
+            "time": 7,
+            "trace": 1,
+            "traceError": 0,
+            "purity": 1,
+            "worldPurity": 0.596053516,
+            "coherence": 0.642778882,
+            "record": 0.399466611,
+            "mutualInformation": 0.246435861,
+            "outside": 0.479147019,
+            "fieldEnergy": 0.473040113,
+            "fieldAmplitude": 1.23446732,
+            "populations": [
+              0.265666268,
+              0.059543071,
+              0.195643643,
+              0.123014102,
+              0.18800025,
+              0.168132667
+            ]
+          },
+          "dominantWorld": 0
+        }
+      ],
+      "fictionalAdditions": [
+        "Phone calls, handwritten external records, and tracking the damage are fictional bridges. No external memory system was simulated."
+      ]
+    },
+    {
+      "scene": 9,
+      "act": "ACT TWO",
+      "heading": "INT. REPLACEMENT SHOWROOM - PHASE CONTROL BOOTH",
+      "beatIds": [
+        "B09"
+      ],
+      "evidence": [
+        {
+          "id": "B09",
+          "step": 320,
+          "time": 8,
+          "actions": [
+            {
+              "message": "dephasing = 0.65",
+              "automatic": false
+            }
+          ],
+          "metrics": {
+            "time": 8,
+            "trace": 1,
+            "traceError": 0,
+            "purity": 1,
+            "worldPurity": 0.620690449,
+            "coherence": 0.534672998,
+            "record": 0.399466611,
+            "mutualInformation": 0.142095615,
+            "outside": 0.223557177,
+            "fieldEnergy": 0.490051874,
+            "fieldAmplitude": 1.399100018,
+            "populations": [
+              0.260618525,
+              0.098983416,
+              0.416840882,
+              0.058875673,
+              0.145726601,
+              0.018954903
+            ]
+          },
+          "dominantWorld": 2
+        }
+      ],
+      "fictionalAdditions": [
+        "The headphone device and quieter room are invented visual metaphors for an increase in the dephasing rate. The solver does not render sound or destroy worlds."
+      ]
+    },
+    {
+      "scene": 10,
+      "act": "ACT TWO",
+      "heading": "INT. REPLACEMENT SHOWROOM - LATER",
+      "beatIds": [
+        "B10"
+      ],
+      "evidence": [
+        {
+          "id": "B10",
+          "step": 360,
+          "time": 9,
+          "actions": [],
+          "metrics": {
+            "time": 9,
+            "trace": 1,
+            "traceError": 0,
+            "purity": 0.449687546,
+            "worldPurity": 0.356527429,
+            "coherence": 0.290299909,
+            "record": 0.399466611,
+            "mutualInformation": 0.067230639,
+            "outside": 0.330905393,
+            "fieldEnergy": 0.52587185,
+            "fieldAmplitude": 1.529644905,
+            "populations": [
+              0.417519465,
+              0.135556977,
+              0.116018165,
+              0.152842259,
+              0.048250578,
+              0.129812555
+            ]
+          },
+          "dominantWorld": 0
+        }
+      ],
+      "fictionalAdditions": [
+        "The manager offering an erasure option and the ethical conflict are invented. Falling coherence and rising field energy are separate measured quantities."
+      ]
+    },
+    {
+      "scene": 11,
+      "act": "ACT THREE",
+      "heading": "INT. REPLACEMENT SHOWROOM - RECEIPT COUNTER",
+      "beatIds": [
+        "B11"
+      ],
+      "evidence": [
+        {
+          "id": "B11",
+          "step": 400,
+          "time": 10,
+          "actions": [
+            {
+              "message": "Record discarded; reduced-world state retained",
+              "automatic": false
+            }
+          ],
+          "metrics": {
+            "time": 10,
+            "trace": 1,
+            "traceError": 0,
+            "purity": 0.235168732,
+            "worldPurity": 0.235168732,
+            "coherence": 0.268321435,
+            "record": 0,
+            "mutualInformation": 0,
+            "outside": 0.492047942,
+            "fieldEnergy": 0.548433201,
+            "fieldAmplitude": 1.702446845,
+            "populations": [
+              0.17614211,
+              0.166744299,
+              0.165065648,
+              0.171076191,
+              0.122717039,
+              0.198254712
+            ]
+          },
+          "dominantWorld": 5
+        }
+      ],
+      "fictionalAdditions": [
+        "The blank receipt and surviving personal memories are invented. Register erasure has no modeled effect on human cognition; it retains the reduced-world state and the classical field."
+      ]
+    },
+    {
+      "scene": 12,
+      "act": "ACT THREE",
+      "heading": "INT. SMITH KITCHEN / SHOWROOM - INTERCUT",
+      "beatIds": [
+        "B12"
+      ],
+      "evidence": [
+        {
+          "id": "B12",
+          "step": 440,
+          "time": 11,
+          "actions": [],
+          "metrics": {
+            "time": 11,
+            "trace": 1,
+            "traceError": 0,
+            "purity": 0.185965635,
+            "worldPurity": 0.185965635,
+            "coherence": 0.140771683,
+            "record": 0,
+            "mutualInformation": 0,
+            "outside": 0.50770707,
+            "fieldEnergy": 0.555972891,
+            "fieldAmplitude": 1.844602822,
+            "populations": [
+              0.169290854,
+              0.152424911,
+              0.170577166,
+              0.171549692,
+              0.175636737,
+              0.160520641
+            ]
+          },
+          "dominantWorld": 4
+        }
+      ],
+      "fictionalAdditions": [
+        "The apology and repair crew are fictional. Physical character actions do not feed new instructions back into the completed numerical run."
+      ]
+    },
+    {
+      "scene": 13,
+      "act": "ACT THREE",
+      "heading": "INT. REPLACEMENT SHOWROOM - MAIN CONTROLS",
+      "beatIds": [
+        "B13"
+      ],
+      "evidence": [
+        {
+          "id": "B13",
+          "step": 480,
+          "time": 12,
+          "actions": [
+            {
+              "message": "sourceGain = 0, feedbackGain = 0, coupling = 0",
+              "automatic": false
+            }
+          ],
+          "metrics": {
+            "time": 12,
+            "trace": 1,
+            "traceError": 0,
+            "purity": 0.173894635,
+            "worldPurity": 0.173894635,
+            "coherence": 0.054022509,
+            "record": 0,
+            "mutualInformation": 0,
+            "outside": 0.478336581,
+            "fieldEnergy": 0.548959756,
+            "fieldAmplitude": 1.956027608,
+            "populations": [
+              0.21877832,
+              0.142510217,
+              0.160374883,
+              0.152905218,
+              0.154340112,
+              0.171091251
+            ]
+          },
+          "dominantWorld": 0
+        }
+      ],
+      "fictionalAdditions": [
+        "The characters' decision to isolate three connections and the repair desk are narrative motivations. The three parameter changes were scheduled before writing."
+      ]
+    },
+    {
+      "scene": 14,
+      "act": "ACT THREE",
+      "heading": "EXT. CIVIC SQUARE - AFTER THE SHUTDOWN",
+      "beatIds": [
+        "B14"
+      ],
+      "evidence": [
+        {
+          "id": "B14",
+          "step": 520,
+          "time": 13,
+          "actions": [],
+          "metrics": {
+            "time": 13,
+            "trace": 1,
+            "traceError": 0,
+            "purity": 0.171327891,
+            "worldPurity": 0.171327891,
+            "coherence": 0.028202223,
+            "record": 0,
+            "mutualInformation": 0,
+            "outside": 0.478336581,
+            "fieldEnergy": 0.38935068,
+            "fieldAmplitude": 2.016473248,
+            "populations": [
+              0.21877832,
+              0.142510217,
+              0.160374883,
+              0.152905218,
+              0.154340112,
+              0.171091251
+            ]
+          },
+          "dominantWorld": 0
+        }
+      ],
+      "fictionalAdditions": [
+        "Manual repair and an external extraction device are invented, explicitly outside the simulated zero-coupling transport. The frozen ensemble itself does not return to world 0."
+      ]
+    },
+    {
+      "scene": 15,
+      "act": "TAG",
+      "heading": "INT. SMITH KITCHEN - EVENING",
+      "beatIds": [
+        "B15"
+      ],
+      "evidence": [
+        {
+          "id": "B15",
+          "step": 560,
+          "time": 14,
+          "actions": [],
+          "metrics": {
+            "time": 14,
+            "trace": 1,
+            "traceError": 0,
+            "purity": 0.170628371,
+            "worldPurity": 0.170628371,
+            "coherence": 0.014722851,
+            "record": 0,
+            "mutualInformation": 0,
+            "outside": 0.478336581,
+            "fieldEnergy": 0.273880812,
+            "fieldAmplitude": 2.109308942,
+            "populations": [
+              0.21877832,
+              0.142510217,
+              0.160374883,
+              0.152905218,
+              0.154340112,
+              0.171091251
+            ]
+          },
+          "dominantWorld": 0
+        }
+      ],
+      "fictionalAdditions": [
+        "The family dinner, repaired mug, and Brundle visit are a fictional epilogue after the source experiment. The displayed end-state remains unrestored."
+      ]
+    }
+  ],
+  "scienceNotes": [
+    "The simulation was executed with engine 1.0.0: six worlds, a one-bit register, a periodic classical field, dt=0.025, and 560 steps. The scenario is a specified EFMW-inspired hybrid, not experimentally validated physics.",
+    "All dialogue, characters, locations, motives, damage, household events, and the single traveler route are original fiction. The solver evolves an ensemble density matrix; it does not sample the individual route shown in the screenplay.",
+    "World 1 toggles the bit at t=2. Boundary links open at t=4; exterior weight is still zero at that instant and becomes 0.258752933 at t=5. The world 1/4 swap at t=6 preserves the recorded-bit marginal of 0.399466611.",
+    "Dephasing is set to 0.65 at t=8. Coherence is 0.534672998 then and 0.290299909 at t=9; field energy rises from 0.490051874 to 0.525871850 over that interval. These are distinct diagnostics.",
+    "Register erasure at t=10 sets P(1) to zero and retains the reduced-world density matrix and field. This does not model the erasure or preservation of human autobiographical memories.",
+    "The source amplitude, return coupling, and portal coupling become zero at t=12. World populations then remain fixed, including exterior weight 0.478336581. Through t=14 field energy falls to 0.273880812 while maximum absolute field amplitude rises to 2.109308942. Damping does not guarantee restoration of a zero field.",
+    "Simulation time is dimensionless and not screen time. Rounded screen displays are readings from the cited beats. Narrative associations are not deductions of morality, consciousness, television canon, or physical multiverse travel.",
+    "This sample was authored by the ChatGPT assistant after inspecting the measured dossier. It was not generated by an executed OpenAI API request. The project includes a separate API adapter for future generation."
+  ]
+}
