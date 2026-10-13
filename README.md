@@ -185,3 +185,10 @@ docs/                       Model specification and evidence
 The mathematical source template and EFMW framing are attributed to Matthew Chenoweth Wright. The finite truncation, one-bit register, dephasing implementation, normalized source adapter, and feedback experiment are implementation choices made for this package; they are not presented as previously established EFMW axioms.
 
 The connection to *Rick and Morty* is an interpretive inspiration. This independent project includes original fan dialogue, but no copied episode dialogue, show footage, character artwork, or endorsement. Project rights are recorded in [LICENSE.txt](LICENSE.txt).
+
+## Lean 4 verification
+
+The pinned [formal package](formal/VERIFICATION.md) contains kernel-checked mathematical
+statements with an explicit [coverage and obligation ledger](formal/COVERAGE.md).
+The `Lean verification` workflow builds the package and tests its strict axiom audit.
+The workflow result for a commit, rather than this link alone, establishes compilation.
