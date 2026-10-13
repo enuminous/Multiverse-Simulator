@@ -8,7 +8,7 @@ variable {ι κ : Type*} [Fintype ι] [DecidableEq ι] [Fintype κ]
 
 def Density (ρ : Matrix ι ι ℂ) : Prop := ρ.PosSemidef ∧ ρ.trace = 1
 
-def channel (K : κ → Matrix ι ι ℂ) (ρ : Matrix ι ι ℂ) : Matrix ι ι ℂ :=
+noncomputable def channel (K : κ → Matrix ι ι ℂ) (ρ : Matrix ι ι ℂ) : Matrix ι ι ℂ :=
   ∑ a, K a * ρ * (K a)ᴴ
 
 theorem channel_positive (K : κ → Matrix ι ι ℂ) (ρ : Matrix ι ι ℂ)
@@ -40,7 +40,7 @@ theorem unitary_step_density (U ρ : Matrix ι ι ℂ)
   exact hρ.2
 
 /-- Projector dephasing with its completeness condition made explicit. -/
-def dephase (q : ℝ) (P : κ → Matrix ι ι ℂ) (ρ : Matrix ι ι ℂ) : Matrix ι ι ℂ :=
+noncomputable def dephase (q : ℝ) (P : κ → Matrix ι ι ℂ) (ρ : Matrix ι ι ℂ) : Matrix ι ι ℂ :=
   q • ρ + (1-q) • channel P ρ
 
 theorem dephase_density (q : ℝ) (hq : q ∈ Set.Icc 0 1)
