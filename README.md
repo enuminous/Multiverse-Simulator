@@ -1,32 +1,34 @@
 # EFMW Physics · Multiverse Simulator Series
 
-<!-- ENUMINOUS-NETWORK:START -->
-**eNuminous network:** [All repositories](https://enuminous.github.io/EFMW/repositories.html) · [EFMW](https://enuminous.github.io/EFMW/) · [102 equations](https://github.com/enuminous/Monolithic_102_EFMW) · [165 triplets](https://enuminous.github.io/FieldSpace/) · [Zoo](https://enuminous.github.io/Tortoise/) · [Lean](https://enuminous.github.io/Aristotle-102-Monolithic-Lean/) · [Engine](https://enuminous.github.io/Archimedes-Engine/) · [Papers](https://enuminous.github.io/medium/papers-essays-index.html) · [Audit](https://github.com/enuminous/EFMW_Post156_Zoo_Audit/blob/main/portfolio/INTERLOCK_AUDIT.md)
+<!-- ENUMINOUS-UNIFIED-NAV:START -->
+## Repository navigation
 
-[Repository](https://github.com/enuminous/Multiverse-Simulator) · [Published page](https://enuminous.github.io/Multiverse-Simulator/)
+**eNuminous network:** [All public repositories](https://github.com/enuminous/EFMW/blob/main/REPOSITORY_NAVIGATION.md) · [EFMW](https://github.com/enuminous/EFMW) · [102 equations](https://github.com/enuminous/Monolithic_102_EFMW) · [Frozen Lean](https://github.com/enuminous/Monolithic-102-Zoo-Lean4) · [Zoo](https://github.com/enuminous/Tortoise) · [Papers](https://github.com/enuminous/papers) · [Quantum geometry](https://github.com/enuminous/Base888-Quantum-Geometry)
 
-<details>
-<summary>Recent repositories (9)</summary>
+**This project:** [Repository home](https://github.com/enuminous/Multiverse-Simulator) · [Subject index](https://github.com/enuminous/EFMW/blob/main/REPOSITORY_NAVIGATION.md#simulators-computation-and-experiments) · [Published site](https://enuminous.github.io/Multiverse-Simulator/) · [Web application](index.html)
 
-- [Oroboros](https://github.com/enuminous/Oroboros) · [README](https://github.com/enuminous/Oroboros/blob/main/README.md) · [Page](https://enuminous.github.io/Oroboros/)
-- [P-NP](https://github.com/enuminous/P-NP) · [README](https://github.com/enuminous/P-NP/blob/main/README.md) · [Page](https://enuminous.github.io/P-NP/)
-- [Research-Program](https://github.com/enuminous/Research-Program) · [README](https://github.com/enuminous/Research-Program/blob/main/README.md) · [Page](https://enuminous.github.io/Research-Program/)
-- [I-Have-Guts](https://github.com/enuminous/I-Have-Guts) · [README](https://github.com/enuminous/I-Have-Guts/blob/main/README.md) · [Page](https://enuminous.github.io/I-Have-Guts/)
-- [Wrights-Law](https://github.com/enuminous/Wrights-Law) · [README](https://github.com/enuminous/Wrights-Law/blob/main/README.md) · [Page](https://enuminous.github.io/Wrights-Law/)
-- [Aristotle-eNuminous](https://github.com/enuminous/Aristotle-eNuminous) · [README](https://github.com/enuminous/Aristotle-eNuminous/blob/main/README.md) · [Page](https://enuminous.github.io/Aristotle-eNuminous/)
-- [Multiverse-Simulator](https://github.com/enuminous/Multiverse-Simulator) · [README](https://github.com/enuminous/Multiverse-Simulator/blob/main/README.md) · [Page](https://enuminous.github.io/Multiverse-Simulator/)
-- [accelerando-8192](https://github.com/enuminous/accelerando-8192) · [README](https://github.com/enuminous/accelerando-8192/blob/main/README.md) · [Page source](https://github.com/enuminous/accelerando-8192/blob/main/docs/index.html)
-- [Codex-888](https://github.com/enuminous/Codex-888) · [README](https://github.com/enuminous/Codex-888/blob/main/README.md) · [Page](https://enuminous.github.io/Codex-888/)
+<details open>
+<summary><strong>On this page</strong></summary>
 
-</details>
+- [Start immediately](#start-immediately)
+- [Read or generate an episode](#read-or-generate-an-episode)
+- [The six experiments](#the-six-experiments)
+- [What you can do](#what-you-can-do)
+- [Reproduce from the command line](#reproduce-from-the-command-line)
+- [Publish on GitHub Pages](#publish-on-github-pages)
+- [Documentation](#documentation)
+- [Project layout](#project-layout)
+- [Scope and attribution](#scope-and-attribution)
+- [Lean 4 verification](#lean-4-verification)
 
-<details>
-<summary>Repository indexes (1)</summary>
-
-- [index.html](https://github.com/enuminous/Multiverse-Simulator/blob/main/index.html) · [Open page](https://enuminous.github.io/Multiverse-Simulator/index.html)
 
 </details>
-<!-- ENUMINOUS-NETWORK:END -->
+
+**Related repositories:** [Archimedes-Engine](https://github.com/enuminous/Archimedes-Engine) · [accelerando-8192](https://github.com/enuminous/accelerando-8192) · [Archimedes-3D](https://github.com/enuminous/Archimedes-3D) · [Codex-888](https://github.com/enuminous/Codex-888) · [EFMW](https://github.com/enuminous/EFMW) · [papers](https://github.com/enuminous/papers)
+
+> **Evidence boundary:** A link between projects is navigation, not an assertion of proven equivalence, experimental validation, or shared authorship. See each repository’s own status and review notes.
+<!-- ENUMINOUS-UNIFIED-NAV:END -->
+
 
 **Six working physics experiments, an LLM episode writer, and a complete original Rick and Morty fan screenplay.**
 
